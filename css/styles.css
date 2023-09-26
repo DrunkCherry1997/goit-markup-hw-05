@@ -672,14 +672,13 @@ font-weight: 500;
     fill: #f4f4fd;
 }
 
-.subscribe_form {
-    
 
-}
+
 
 .form {
     display: flex;
     gap: 24px; 
+   
 }
 
 
