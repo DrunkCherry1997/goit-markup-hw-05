@@ -620,7 +620,7 @@ overflow: hidden;
     
 }
 .footer-social-media-container{
-  
+
 
  
     
@@ -636,11 +636,16 @@ font-weight: 500;
 }
 .media-list-footer {
     display: flex;
+   
     gap: 16px;
     list-style-type: none;
   
 }
 .footer-media-item {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+        
     width: 40px;
         height: 40px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -670,6 +675,8 @@ font-weight: 500;
 }
 .footer-icons {
     fill: #f4f4fd;
+    
+   
 }
 
 
