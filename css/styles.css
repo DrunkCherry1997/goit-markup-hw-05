@@ -676,12 +676,11 @@ font-weight: 500;
 
 }
 
-.form-container {
-display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 16px;
+.form {
+    display: flex;
+    gap: 24px; 
 }
+
 
 .form-paragraph {
     font-weight: 500;
