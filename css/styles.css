@@ -840,6 +840,9 @@ justify-content: center;
 .modal-window-form-container {
     margin-bottom: 8px;
 }
+.modal-window-form-container:last-child {
+    margin-bottom: 16px;
+}
 .modal-window-label {
     font-size: 12px;
     line-height: 1.17;
