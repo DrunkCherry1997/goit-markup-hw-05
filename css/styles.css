@@ -865,10 +865,13 @@ justify-content: center;
 }
 
  .last-last-input:focus {
-    fill: #4D5AE5;
-  
+   border-color: #4D5AE5;
 
 }
+ .last-last-input:focus + .new-page-svg {
+    fill: #4D5AE5;
+
+ }
 
 .new-page-svg {
     position: absolute;
@@ -948,6 +951,10 @@ justify-content: center;
 
 input:checked+label>span svg { 
     fill: var(--your-icon-color-variable);
+}
+
+.input-checkbox:checked + .label-checkbox .checkbox-span{
+    fill: #F4F4FD;
 }
 
  .privacy-policy-link {
