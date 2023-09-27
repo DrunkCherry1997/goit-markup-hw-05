@@ -620,10 +620,7 @@ overflow: hidden;
     
 }
 .footer-social-media-container{
-
-
- 
-    
+margin-right: 80px;
 
 }
 .footer-media-paragragh {
@@ -675,8 +672,7 @@ font-weight: 500;
 }
 .footer-icons {
     fill: #f4f4fd;
-    
-   
+
 }
 
 
@@ -700,7 +696,7 @@ font-weight: 500;
 .form-label {
     display: flex;
     flex-direction: row;
-    margin-left: 80px;
+   
 }
 /* Задаємо стилі для елементів форми */
 
@@ -758,9 +754,9 @@ border-radius: 4px;
 
 }
 /* Стилі для SVG іконки */
-.footer-icons {
+.footer-icons-new {
     fill: #f4f4fd;
-    margin-left: 16px;
+    margin-left: 16px; 
 }
 
 .modal-window-container {
@@ -869,7 +865,7 @@ justify-content: center;
 }
 
  .last-last-input:focus {
-    border-color: #4D5AE5;
+    fill: #4D5AE5;
   
 
 }
