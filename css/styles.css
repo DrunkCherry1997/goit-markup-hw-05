@@ -778,9 +778,7 @@ border-radius: 4px;
     visibility: hidden;
         opacity: 0;
         pointer-events: none;
-       
-
-}
+    }
 
 .modal-window-container .is-open {
     visibility: visible;
@@ -818,16 +816,16 @@ border-radius: 4px;
     justify-content: center;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
-   padding: 0;
-cursor: pointer;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-align-items: center;
-justify-content: center;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    justify-content: center;
 
 }
 
 .modal-button:hover,
- .modal-button:focus {
+.modal-button:focus {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
@@ -890,13 +888,13 @@ justify-content: center;
 }
 
  .last-last-input:focus {
-   border-color: #4D5AE5;
+border-color: #4D5AE5;
 
 }
- .last-last-input:focus + .new-page-svg {
+.last-last-input:focus + .new-page-svg {
     fill: #4D5AE5;
 
- }
+}
 
 .new-page-svg {
     position: absolute;
@@ -937,7 +935,7 @@ justify-content: center;
     margin-bottom: 24px;
 }
 
- .label-checkbox {
+.label-checkbox {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -968,8 +966,8 @@ justify-content: center;
  }
 
  input:checked+label>span {
-     background-color: var(--your-background-color-variable, #404bbf);
-     border: none;
+    background-color: var(--your-background-color-variable, #404bbf);
+ border: none;
  }
 
 :root {
