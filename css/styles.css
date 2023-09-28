@@ -620,7 +620,7 @@ overflow: hidden;
     
 }
 .footer-social-media-container{
-margin-right: 80px;
+margin-right:auto;
 
 }
 .footer-media-paragragh {
@@ -697,6 +697,7 @@ font-weight: 500;
     display: flex;
     flex-direction: row;
    
+   
 }
 /* Задаємо стилі для елементів форми */
 
@@ -704,6 +705,8 @@ font-weight: 500;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid var(--WHITE, #FFF);
+    padding-left: 16px;
+    padding-bottom: 8px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: transparent;
     width: 264px;
@@ -711,8 +714,6 @@ font-weight: 500;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding-left: 16px;
-    padding-bottom: 8px;
     color: #ffffff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15))
 }
@@ -753,6 +754,13 @@ border-radius: 4px;
 
 
 }
+.subscribe_button:hover,
+.subscribe_button:focus {
+    background-color: #404BBF;
+    }
+
+}
+
 /* Стилі для SVG іконки */
 .footer-icons-new {
     fill: #f4f4fd;
@@ -775,7 +783,7 @@ border-radius: 4px;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
-    min-height: 584px;
+    
     background: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -820,6 +828,9 @@ justify-content: center;
 .modal-button .modal-icon:focus {
     fill: #ffffff;
 }
+
+
+
 .modal-paragraph {
     font-weight: 500;
     font-size: 16px;
@@ -856,12 +867,14 @@ justify-content: center;
 .last-last-input {
     width: 100%;
     height: 40px;
+    font-size: 12px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
  .last-last-input:focus {
@@ -912,10 +925,15 @@ justify-content: center;
     letter-spacing: 0.04em;
     color: var(--your-css-variable, #8e8f99);
  }
+ .label-checkbox:focus {
+    fill: #4D5AE5;
+    
+ }
+ 
  .checkbox-span {
     width: 16px;
     height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+  
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
@@ -925,8 +943,10 @@ justify-content: center;
 
 
  }
- .svg-for-checkbox {
 
+ .checkbox-span .svg-for-checkbox:hover,
+ .checkbox-span .svg-for-checkbox:focus {
+     fill: #ffffff;
  }
 
  input:checked+label>span {
@@ -978,7 +998,10 @@ input:checked+label>span svg {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
-margin-top: 24px;
+ margin-top: 24px;
     margin-left: 90px;
+}
+.button-for-checkbox:hover,
+.button-for-checkbox:focus{
+    background-color: #404BBF;
 }
