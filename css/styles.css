@@ -780,7 +780,7 @@ border-radius: 4px;
         pointer-events: none;
     }
 
-.modal-window-container .is-open {
+.modal-window-container.is-open {
     visibility: visible;
         opacity: 1;
         pointer-events: auto;
@@ -812,7 +812,7 @@ border-radius: 4px;
     height: 24px;
     border-radius: 50%;
     display: flex;
-    align-items: center
+    align-items: center;
     justify-content: center;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -851,9 +851,7 @@ border-radius: 4px;
     margin-bottom: 16px;
 
 }
-.modal-window-form {
 
-}
 .modal-window-form-container {
     margin-bottom: 8px;
 }
